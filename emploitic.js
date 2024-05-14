@@ -4,7 +4,7 @@ const getJobs = async title => {
     filter: "(criteria.location.id='c1dfd96eea8cc2b62785275bca38ac261256e278' OR criteria.location.metadata.parentId='c1dfd96eea8cc2b62785275bca38ac261256e278')",
     q: title,
     "pagination[page]": 1,
-    "pagination[pageSize]": 1000,
+    "pagination[pageSize]": 100,
     "sort[0]": "publishedAt:desc",
   };
 
